@@ -1,4 +1,6 @@
-﻿namespace MauiApp1;
+﻿using MauiApp1.Views;
+
+namespace MauiApp1;
 
 public partial class App : Application
 {
@@ -6,6 +8,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+		//MainPage = new AppShell();
+        MainPage = new ThirdPage();
+    }
 }

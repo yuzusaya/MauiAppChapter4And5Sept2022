@@ -5,7 +5,8 @@ public partial class SecondPage : ContentPage
 	public SecondPage()
 	{
 		InitializeComponent();
-        this.Content = new StackLayout();
+        //content can be set once only
+        //this.Content = new StackLayout();
 
     }
 
